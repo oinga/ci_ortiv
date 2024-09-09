@@ -7,5 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
+$routes->post('/', 'Home::index');
+
 $routes->get('cv', 'DownloadController::downloadCV');
 

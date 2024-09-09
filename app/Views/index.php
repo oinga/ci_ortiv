@@ -406,9 +406,9 @@
         <div class="col-lg-5 col-sm-6">
           <aside class="f_widget ab_widget">
             <div class="f_title">
-              <h3>About Me</h3>
+              <h3>Want to Collaborate?</h3>
             </div>
-            <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+            <p>I'm always on the lookout for talented developers and IT professionals to collaborate with on exciting projects. Feel free to reach out if you're interested in partnering!</p>
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
               </script> All rights reserved | StandingDev.com</a>
@@ -421,14 +421,14 @@
               <h3>Get in Touch</h3>
             </div>
             <p>Want to collaborate?</p>
-            <div id="mc_embed_signup">
-              <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                <div class="input-group d-flex flex-row">
-                  <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                  <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                </div>
-                <div class="mt-10 info"></div>
-              </form>
+            <div id="contact">
+              <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
+                  <div class="input-group d-flex flex-row">
+                      <?php echo form_input(['name' => 'EMAIL', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
+                      <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                  </div>
+                  <div class="mt-10 info"></div>
+              <?php echo form_close(); ?>
             </div>
           </aside>
         </div>
