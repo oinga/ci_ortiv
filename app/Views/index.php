@@ -23,7 +23,7 @@
               <h6>Hello everyone! I am</h6>
               <h3>
                 Ortiv Inga
-                <a href="<?php echo base_url('assets/uploads/personal.jpg');  ?>" class="btn btn-primary" download style="margin-left: 10px;">Download Resume</a>
+                <a href="<?= base_url('cv'); ?>" class="btn btn-primary" download style="margin-left: 10px;">Download CV</a>
               </h3>
               <h4>Software Engineer</h4>
               <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>
@@ -116,10 +116,10 @@
                 </div>
               </div>
               <div class="skill_item">
-                <h4>API Development <span class="counter">95</span>%</h4>
+                <h4>Integrations <span class="counter">90</span>%</h4>
                 <div class="progress_br">
                   <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
@@ -158,11 +158,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2017 to present</p>
+                    <p>March 2021 - Current</p>
                   </div>
                   <div class="media-body">
-                    <h4>Colorlib</h4>
-                    <p>Senior Web Developer <br />Santa monica, Los angeles</p>
+                    <h4>Applications Developer/Analyst, Senior</h4>
+                    <p>Emory University <br />Atlanta, GA United States</p>
                   </div>
                 </div>
               </li>
@@ -170,11 +170,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2017 to present</p>
+                    <p>March 2019 to 2021</p>
                   </div>
                   <div class="media-body">
-                    <h4>Colorlib</h4>
-                    <p>Senior Web Developer <br />Santa monica, Los angeles</p>
+                    <h4>Emory University</h4>
+                    <p>Software Engineer <br />Atlanta, GA</p>
                   </div>
                 </div>
               </li>
@@ -182,11 +182,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2017 to present</p>
+                    <p>March 2015 to 2019</p>
                   </div>
                   <div class="media-body">
-                    <h4>Colorlib</h4>
-                    <p>Senior Web Developer <br />Santa monica, Los angeles</p>
+                    <h4>Logic Enterprises</h4>
+                    <p>Junior Developer <br />St. Ives, England</p>
                   </div>
                 </div>
               </li>
@@ -222,7 +222,7 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2017 to present</p>
+                    <p>March 2015 to 2019</p>
                   </div>
                   <div class="media-body">
                     <h4>Colorlib</h4>
@@ -242,31 +242,42 @@
   <section id="portfolio" class="feature_area p_120">
     <div class="container">
       <div class="main_title">
-        <h2>offerings to my clients</h2>
-        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
+        <h2>What I Can Offer You</h2>
+        <p>I offer expertise in full-stack development, seamlessly integrating backend and frontend technologies, leveraging cloud computing, developing robust APIs, and managing databases to deliver scalable and efficient software solutions.</p>
       </div>
       <div class="feature_inner row">
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
-            <i class="flaticon-city"></i>
-            <h4>Architecture</h4>
-            <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            <!-- <i class="flaticon-city"></i> -->
+            <img class="backend-coding" src="<?php echo base_url('assets/img/backend-coding.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="back-endcoding">
+            <h4>Backend Development</h4>
+            <p>Backend development, including server-side logic, database management, and API design, ensuring high performance and security. I specialize in building scalable, maintainable architectures that support seamless user experiences.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
-            <i class="flaticon-skyline"></i>
-            <h4>Interior Design</h4>
-            <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            <!-- <i class="flaticon-skyline"></i> -->
+            <img class="dbm" src="<?php echo base_url('assets/img/dbm.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="dbm">
+            <h4>Database Management</h4>
+            <p>Database management, including design, optimization, and maintenance, ensuring data integrity and performance. I excel at a 'Database First' approaches, creating scalable, efficient solutions that enhance application functionality.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
-            <i class="flaticon-sketch"></i>
-            <h4>Concept Design</h4>
-            <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $17 each.</p>
+            <!-- <i class="flaticon-sketch"></i> -->
+            <img class="dbm" src="<?php echo base_url('assets/img/cloud-computing.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="cloud-computing">
+            <h4>Cloud Computing</h4>
+            <p>Cloud computing expertise, including deployment, scaling, and management of cloud resources, ensuring optimal performance and cost-efficiency. I excel at providing per-specification consultation and designing scalable solutions that leverage cloud technologies to meet business needs."</p>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature_item">
+            <!-- <i class="flaticon-sketch"></i> -->
+            <img class="dbm" src="<?php echo base_url('assets/img/integrations.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="integrations">
+            <h4>Integrations</h4>
+            <p>Seamless integration of diverse systems, such as API development, third-party service connections, and database synchronization, ensuring they work together efficiently. I excel at connecting APIs and services to create cohesive, scalable solutions.</p>
+          </div>
+        </div>        
       </div>
     </div>
   </section>
@@ -276,97 +287,66 @@
   <section id="elements" class="home_gallery_area p_120">
     <div class="container">
       <div class="main_title">
-        <h2>Our Latest Featured Projects</h2>
+        <h2>What I'm up to</h2>
         <p>Who are in extremely love with eco friendly system.</p>
       </div>
       <div class="isotope_fillter">
         <ul class="gallery_filter list">
           <li class="active" data-filter="*"><a href="#">All</a></li>
-          <li data-filter=".brand"><a href="#">Vector</a></li>
-          <li data-filter=".manipul"><a href="#">Raster</a></li>
-          <li data-filter=".creative"><a href="#">UI/UX</a></li>
-          <li data-filter=".design"><a href="#">Printing</a></li>
+          <li data-filter=".education"><a href="#">Education</a></li>
+          <li data-filter=".teach"><a href="#">Teaching</a></li>
+          <li data-filter=".creative"><a href="#">Professional</a></li>
+          <!-- <li data-filter=".design"><a href="#">Printing</a></li> -->
         </ul>
       </div>
     </div>
     <div class="container">
       <div class="gallery_f_inner row imageGallery1">
-        <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
+        <div class="col-lg-4 col-md-4 col-sm-6 education">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img class="img-fluid" src="<?php echo base_url('img/gallery/project-1.jpg'); ?>" alt="">
-              <a class="light" href="img/gallery/project-1.jpg"><img src="img/gallery/icon.png" alt=""></a>
+              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-1.jpg'); ?>" alt=""> -->
+              <img src="<?php echo base_url('assets/img/artificial-intelligence.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="artificial-intelligence"></a>
             </div>
             <div class="g_item_text">
-              <h4>3D Helmet Design</h4>
-              <p>Client Project</p>
+              <h4>Machine Learning</h4>
+                <p><strong>Independent Study</strong></p>
+                <p style="text-align: left; margin-top: 10px;">I am currently collaborating with fellow students, writing and anlyzing code that implements various deep learning neural networks. Including but not limited to Hidden Markov Models and Transformer Models. Our work explores a range of architectures and techniques to tackle diverse challenges in machine learning.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
+        <div class="col-lg-4 col-md-4 col-sm-6 teach">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img class="img-fluid" src="<?php echo base_url('img/gallery/project-2.jpg'); ?>" alt="">
-              <a class="light" href="<?php echo base_url('img/gallery/project-2.jpg'); ?>"><img src="<?php echo base_url('img/gallery/icon.png'); ?>" alt=""></a>
+              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-2.jpg'); ?>" alt=""> -->
+              <img src="<?php echo base_url('assets/img/mentorship.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="mentorship"></a>
             </div>
             <div class="g_item_text">
-              <h4>2D Vinyl Design</h4>
-              <p>Client Project</p>
+              <h4>Mentoring</h4>
+              <p><strong>Volunteer Work</strong></p>
+              <p style="text-align: left; margin-top: 10px;">I am currently mentoring students in basic coding structure, including HTML, Python, and PHP. My focus is on helping them become acclimated to popular languages, frameworks, and design principles, providing a solid foundation for their development skills.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img class="img-fluid" src="<?php echo base_url('img/gallery/project-3.jpg'); ?>" alt="">
-              <a class="light" href="<?php echo base_url('img/gallery/project-3.jpg'); ?>"><img src="<?php echo base_url('img/gallery/icon.png'); ?>" alt=""></a>
+              <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-3.jpg'); ?>" alt="">
+              <img src="<?php echo base_url('assets/img/consultation.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="consultation"></a>
             </div>
             <div class="g_item_text">
-              <h4>Creative Poster Design</h4>
-              <p>Client Project</p>
+              <h4>Consulting</h4>
+              <p><strong>Client Project</strong></p>
+              <p style="text-align: left; margin-top: 10px;">I am currently consulting with client to provide insights on healthcare analytical data. Additionally, I am implementing and advising them on next best steps for current applications and integrations, aiming to enhance procedural outcomes and foster stronger relationships with their clients.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 brand creative print">
-          <div class="h_gallery_item">
-            <div class="g_img_item">
-              <img class="img-fluid" src="img/gallery/project-4.jpg" alt="">
-              <a class="light" href="img/gallery/project-4.jpg"><img src="img/gallery/icon.png" alt=""></a>
-            </div>
-            <div class="g_item_text">
-              <h4>Embosed Logo Design</h4>
-              <p>Client Project</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 brand manipul design">
-          <div class="h_gallery_item">
-            <div class="g_img_item">
-              <img class="img-fluid" src="img/gallery/project-5.jpg" alt="">
-              <a class="light" href="img/gallery/project-5.jpg"><img src="img/gallery/icon.png" alt=""></a>
-            </div>
-            <div class="g_item_text">
-              <h4>3D Disposable Bottle</h4>
-              <p>Client Project</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 brand creative">
-          <div class="h_gallery_item">
-            <div class="g_img_item">
-              <img class="img-fluid" src="img/gallery/project-6.jpg" alt="">
-              <a class="light" href="img/gallery/project-6.jpg"><img src="img/gallery/icon.png" alt=""></a>
-            </div>
-            <div class="g_item_text">
-              <h4>3D Logo Design</h4>
-              <p>Client Project</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="more_btn">
+
+
+
+      <!-- <div class="more_btn">
         <a class="main_btn" href="#">Load More Items</a>
-      </div>
+      </div> -->
     </div>
   </section>
   <!--================End Home Gallery Area =================-->
