@@ -3,48 +3,53 @@
 
 <!--================ Head =================-->
 <?php require_once(__DIR__ . '/common/head.php'); ?>
+
 <body>
-<!--================ Header =================-->
-<?php require_once(__DIR__ . '/common/header.php'); ?>
+  <!--================ Header =================-->
+  <?php require_once(__DIR__ . '/common/header.php'); ?>
 
 
-<!--================Home Banner Area =================-->
-<section id="home" class="home_banner_area">
-  <div class="container box_1620">
-    <div class="banner_inner d-flex align-items-center">
-      <div class="banner_content">
-        <div class="media">
-          <div class="d-flex">
-            <img src="<?php echo base_url('assets/img/personal.jpg'); ?>" alt="">
-          </div>
-          <div class="media-body">
-            <div class="personal_text">
-              
-              <h6>Hello everyone! I am</h6>
-              <h3>
-                Ortiv Inga
-                <a href="<?= base_url('cv'); ?>" class="btn btn-primary" download style="margin-left: 10px;">Download CV</a>
-              </h3>
-              <h4>Software Engineer</h4>
-              <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>
-              <ul class="list basic_info">
-                <li><a href="#"><i class="lnr lnr-calendar-full"></i> November, 7th 1983</a></li>
-                <li><a href="mailto:ortiv@programmer.net"><i class="lnr lnr-envelope"></i> ortiv@programmer.net</a>
-                <li><a href="#"><i class="lnr lnr-home"></i>Atlanta, Georgia</a></li>
-              </ul>
-              <ul class="list personal_social">
-                <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ortiv-inga/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
+  <!--================Home Banner Area =================-->
+  <section id="home" class="home_banner_area">
+    <div class="container box_1620">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="banner_content">
+          <div class="media">
+            <div class="d-flex">
+              <img src="<?php echo base_url('assets/img/personal.jpg'); ?>" alt="">
+            </div>
+            <div class="media-body">
+              <div class="personal_text">
+                <?php if (session()->has('message')) : ?>
+                  <div class="alert alert-info">
+                    <?php echo session('message'); ?>
+                  </div>
+                <?php endif; ?>
+                <h6>Hello everyone! I am</h6>
+                <h3>
+                  Ortiv Inga
+                  <a href="<?= base_url('cv'); ?>" class="btn btn-primary" download style="margin-left: 10px;">Download CV</a>
+                </h3>
+                <h4>Software Engineer</h4>
+                <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>
+                <ul class="list basic_info">
+                  <li><a href="#"><i class="lnr lnr-calendar-full"></i> November, 7th 1983</a></li>
+                  <li><a href="mailto:ortiv@programmer.net"><i class="lnr lnr-envelope"></i> ortiv@programmer.net</a>
+                  <li><a href="#"><i class="lnr lnr-home"></i>Atlanta, Georgia</a></li>
+                </ul>
+                <ul class="list personal_social">
+                  <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/ortiv-inga/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--================End Home Banner Area =================-->
+  </section>
+  <!--================End Home Banner Area =================-->
 
   <!--================Welcome Area =================-->
   <section id="about" class="welcome_area p_120">
@@ -277,7 +282,7 @@
             <h4>Integrations</h4>
             <p>Seamless integration of diverse systems, such as API development, third-party service connections, and database synchronization, ensuring they work together efficiently. I excel at connecting APIs and services to create cohesive, scalable solutions.</p>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   </section>
@@ -305,20 +310,22 @@
         <div class="col-lg-4 col-md-4 col-sm-6 education">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-1.jpg'); ?>" alt=""> -->
+              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-1.jpg'); 
+                                                ?>" alt=""> -->
               <img src="<?php echo base_url('assets/img/artificial-intelligence.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="artificial-intelligence"></a>
             </div>
             <div class="g_item_text">
               <h4>Machine Learning</h4>
-                <p><strong>Independent Study</strong></p>
-                <p style="text-align: left; margin-top: 10px;">I am currently collaborating with fellow students, writing and anlyzing code that implements various deep learning neural networks. Including but not limited to Hidden Markov Models and Transformer Models. Our work explores a range of architectures and techniques to tackle diverse challenges in machine learning.</p>
+              <p><strong>Independent Study</strong></p>
+              <p style="text-align: left; margin-top: 10px;">I am currently collaborating with fellow students, writing and anlyzing code that implements various deep learning neural networks. Including but not limited to Hidden Markov Models and Transformer Models. Our work explores a range of architectures and techniques to tackle diverse challenges in machine learning.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 teach">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-2.jpg'); ?>" alt=""> -->
+              <!-- <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-2.jpg'); 
+                                                ?>" alt=""> -->
               <img src="<?php echo base_url('assets/img/mentorship.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="mentorship"></a>
             </div>
             <div class="g_item_text">
@@ -331,7 +338,8 @@
         <div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
           <div class="h_gallery_item">
             <div class="g_img_item">
-              <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-3.jpg'); ?>" alt="">
+              <img class="img-fluid" src="<?php //echo base_url('img/gallery/project-3.jpg'); 
+                                          ?>" alt="">
               <img src="<?php echo base_url('assets/img/consultation.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="consultation"></a>
             </div>
             <div class="g_item_text">
@@ -344,10 +352,10 @@
 
 
 
-      <!-- <div class="more_btn">
+        <!-- <div class="more_btn">
         <a class="main_btn" href="#">Load More Items</a>
       </div> -->
-    </div>
+      </div>
   </section>
   <!--================End Home Gallery Area =================-->
 
@@ -406,13 +414,13 @@
         <div class="col-lg-5 col-sm-6">
           <aside class="f_widget ab_widget">
             <div class="f_title">
-              <h3>Want to Collaborate?</h3>
+              <h3>Want to work together?</h3>
             </div>
             <p>I'm always on the lookout for talented developers and IT professionals to collaborate with on exciting projects. Feel free to reach out if you're interested in partnering!</p>
-              Copyright &copy;<script>
-                document.write(new Date().getFullYear());
-              </script> All rights reserved | StandingDev.com</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | StandingDev.com</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </aside>
         </div>
         <div class="col-lg-5 col-sm-6">
@@ -420,32 +428,69 @@
             <div class="f_title">
               <h3>Get in Touch</h3>
             </div>
-            <p>Want to collaborate?</p>
+            <p>Leave your email annd I'll get in touch with you!</p>
             <div id="contact">
               <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
-                  <div class="input-group d-flex flex-row">
-                      <?php echo form_input(['name' => 'EMAIL', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
-                      <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                  </div>
-                  <div class="mt-10 info"></div>
+              <div class="input-group d-flex flex-row">
+                <?php echo form_input(['name' => 'email', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
+                <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+              </div>
+              <div class="mt-10 info"></div>
               <?php echo form_close(); ?>
             </div>
           </aside>
-        </div>
-        <div class="col-lg-2">
-          <aside class="f_widget social_widget">
-            <div class="f_title">
-              <h3>Follow Me</h3>
+          <aside class="f_widget news_widget">
+            <p>Do you want to send a more detailed message?</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Message Me
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content" style="background: linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
+                    <div class="form-group">
+                      <?php echo form_label('Email address', 'email'); ?>
+                      <?php echo form_input(['name' => 'long_email', 'id' => 'email', 'class' => 'form-control', 'required' => 'required', 'placeholder' => 'Enter email', 'style' => 'background: transparent; font-family: "Roboto", sans-serif; font-size: 14px; color: white;']); ?>
+                    </div>
+                    <div class="form-group">
+                      <?php echo form_label('Message', 'message'); ?>
+                      <?php echo form_textarea(['name' => 'message', 'id' => 'message', 'required' => 'required', 'rows' => '3', 'class' => 'form-control', 'placeholder' => 'Write a short message', 'style' => 'background: transparent; font-family: "Roboto", sans-serif; font-size: 14px; color: white;']); ?>
+                    </div>
+
+                    <div class="modal-footer">
+                      <?php echo form_button(['type' => 'submit', 'class' => 'btn btn-primary', 'content' => 'Send']); ?>
+                      <?php echo form_close(); ?>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p>My Social</p>
-            <ul class="list">
-                <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ortiv-inga" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
-            </ul>
-          </aside>
         </div>
+        </aside>
       </div>
+      <div class="col-lg-2">
+        <aside class="f_widget social_widget">
+          <div class="f_title">
+            <h3>Follow Me</h3>
+          </div>
+          <p>My Social</p>
+          <ul class="list">
+            <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ortiv-inga" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
     </div>
   </footer>
   <!--================End Footer Area =================-->
