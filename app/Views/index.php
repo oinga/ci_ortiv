@@ -33,7 +33,7 @@
                 <li><a href="#"><i class="lnr lnr-home"></i>Atlanta, Georgia</a></li>
               </ul>
               <ul class="list personal_social">
-                <li><a href="https://github.com/oinga"><i class="fa fa-github" target="_blank"></i></a></li>
+                <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/ortiv-inga/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
               </ul>
@@ -288,7 +288,7 @@
     <div class="container">
       <div class="main_title">
         <h2>What I'm up to</h2>
-        <p>Who are in extremely love with eco friendly system.</p>
+        <p>Below are some of the exciting projects and initiatives I'm currently involved in.</p>
       </div>
       <div class="isotope_fillter">
         <ul class="gallery_filter list">
@@ -439,9 +439,9 @@
             </div>
             <p>My Social</p>
             <ul class="list">
-              <li><a href="https://www.facebook.com/ortiv.inga"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/ortiv-inga"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/oinga"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ortiv-inga" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
           </aside>
         </div>
