@@ -278,7 +278,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
             <!-- <i class="flaticon-sketch"></i> -->
-            <img class="dbm" src="<?php echo base_url('assets/img/integrations.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="integrations">
+            <img class="dbm" src="<?php echo base_url('assets/img/Integrations.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="integrations">
             <h4>Integrations</h4>
             <p>Seamless integration of diverse systems, such as API development, third-party service connections, and database synchronization, ensuring they work together efficiently. I excel at connecting APIs and services to create cohesive, scalable solutions.</p>
           </div>
