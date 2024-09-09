@@ -1,72 +1,15 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="<?php echo base_url('assets/img/favicon.png'); ?>" type="image/png">
-  <title>Ortiv Inga - The Standing Dev</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/linericon/style.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/font-awesome.min.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/owl-carousel/owl.carousel.min.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/lightbox/simpleLightbox.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/nice-select/css/nice-select.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/animate-css/animate.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/popup/magnific-popup.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/vendors/flaticon/flaticon.css'); ?>">
-  <!-- main css -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
-  <link rel="stylesheet" href="<?php echo base_url('assets/css/responsive.css'); ?>">
-</head>
-
+<!--================ Head =================-->
+<?php require_once(__DIR__ . '/common/head.php'); ?>
 <body>
+<!--================ Header =================-->
+<?php require_once(__DIR__ . '/common/header.php'); ?>
 
-  <!--================Header Menu Area =================-->
-  <header class="header_area">
-    <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container box_1620">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand logo_h" href="<?php echo base_url('index.html'); ?>"><img src="<?php echo base_url('img/logo.png'); ?>" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-            <ul class="nav navbar-nav menu_nav ml-auto">
-              <li class="nav-item active"><a class="nav-link" href="<?php echo base_url('index.html'); ?>">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo base_url('about-us.html'); ?>">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo base_url('services.html'); ?>">Services</a></li>
-              <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="<?php echo base_url('portfolio.html'); ?>">Portfolio</a></li>
-                  <li class="nav-item"><a class="nav-link" href="<?php echo base_url('elements.html'); ?>">Elements</a></li>
-                </ul>
-              </li>
-              <li class="nav-item submenu dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="<?php echo base_url('blog.html'); ?>">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link" href="<?php echo base_url('single-blog.html'); ?>">Blog Details</a></li>
-                </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="<?php echo base_url('contact.html'); ?>">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!--================Header Menu Area =================-->
 
 <!--================Home Banner Area =================-->
-<section class="home_banner_area">
+<section id="home" class="home_banner_area">
   <div class="container box_1620">
     <div class="banner_inner d-flex align-items-center">
       <div class="banner_content">
@@ -104,12 +47,12 @@
 <!--================End Home Banner Area =================-->
 
   <!--================Welcome Area =================-->
-  <section class="welcome_area p_120">
+  <section id="about" class="welcome_area p_120">
     <div class="container">
       <div class="row welcome_inner">
         <div class="col-lg-6">
           <div class="welcome_text">
-            <h4>About Myself</h4>
+            <h4>About Me</h4>
             <div class="container">
               <p class="mb-4">
                 Though I originally pursued a bachelor’s degree in Theatre, my journey took an unexpected turn when I discovered my true passion for coding. It all began with a freelance project for a law firm in Connecticut, where I was tasked with creating their website. This experience ignited a new direction in my career, leading me to become a professional software engineer.
@@ -197,7 +140,7 @@
   <!--================End Welcome Area =================-->
 
   <!--================My Tabs Area =================-->
-  <section class="mytabs_area p_120">
+  <section id="experience" class="mytabs_area p_120">
     <div class="container">
       <div class="tabs_inner">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -296,7 +239,7 @@
   <!--================End My Tabs Area =================-->
 
   <!--================Feature Area =================-->
-  <section class="feature_area p_120">
+  <section id="portfolio" class="feature_area p_120">
     <div class="container">
       <div class="main_title">
         <h2>offerings to my clients</h2>
@@ -330,7 +273,7 @@
   <!--================End Feature Area =================-->
 
   <!--================Home Gallery Area =================-->
-  <section class="home_gallery_area p_120">
+  <section id="elements" class="home_gallery_area p_120">
     <div class="container">
       <div class="main_title">
         <h2>Our Latest Featured Projects</h2>
@@ -477,7 +420,7 @@
   <!--================End Testimonials Area =================-->
 
   <!--================Footer Area =================-->
-  <footer class="footer_area p_120">
+  <footer id="contact" class="footer_area p_120">
     <div class="container">
       <div class="row footer_inner">
         <div class="col-lg-5 col-sm-6">
