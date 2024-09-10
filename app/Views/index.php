@@ -28,7 +28,7 @@
                 <h6>Hello everyone! I am</h6>
                 <h3>
                   Ortiv Inga
-                  <a href="<?= base_url('uploads/'.$cv); ?>" target="_blank" class="btn btn-primary" style="margin-left: 10px;">View My CV</a>
+                  <a href="<?= base_url('uploads/' . $cv); ?>" target="_blank" class="btn btn-primary" style="margin-left: 10px;">View My CV</a>
                 </h3>
                 <h4>Software Engineer</h4>
                 <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>
@@ -163,11 +163,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2021 - Current</p>
+                    <p>April 2021 - Current</p>
                   </div>
                   <div class="media-body">
                     <h4>Applications Developer/Analyst, Senior</h4>
-                    <p>Emory University <br />Atlanta, GA United States</p>
+                    <p>Emory University: School of Medicine <br />Atlanta, GA United States</p>
                   </div>
                 </div>
               </li>
@@ -175,11 +175,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2019 to 2021</p>
+                    <p>April 2019 to 2021</p>
                   </div>
                   <div class="media-body">
-                    <h4>Emory University</h4>
-                    <p>Software Engineer <br />Atlanta, GA</p>
+                    <h4>Software Engineer</h4>
+                    <p>Emory University <br />Atlanta, GA</p>
                   </div>
                 </div>
               </li>
@@ -187,11 +187,11 @@
                 <span></span>
                 <div class="media">
                   <div class="d-flex">
-                    <p>March 2015 to 2019</p>
+                    <p>April 2015 to 2019</p>
                   </div>
                   <div class="media-body">
-                    <h4>Logic Enterprises</h4>
-                    <p>Junior Developer <br />St. Ives, England</p>
+                    <h4>Junior Developer</h4>
+                    <p>Logic Enterprises <br />St. Ives, England</p>
                   </div>
                 </div>
               </li>
@@ -317,7 +317,7 @@
             <div class="g_item_text">
               <h4>Machine Learning</h4>
               <p><strong>Independent Study</strong></p>
-              <p style="text-align: left; margin-top: 10px;">I am currently collaborating with fellow students, writing and anlyzing code that implements various deep learning neural networks. Including but not limited to Hidden Markov Models and Transformer Models. Our work explores a range of architectures and techniques to tackle diverse challenges in machine learning.</p>
+              <p style="text-align: left; margin-top: 10px;">I am currently collaborating with fellow UoPeople Master’s students, writing and anlyzing code that implements various deep learning neural networks. Including but not limited to Hidden Markov Models and Transformer Models. Our work explores a range of architectures and techniques to tackle diverse challenges in machine learning.</p>
             </div>
           </div>
         </div>
@@ -331,7 +331,7 @@
             <div class="g_item_text">
               <h4>Mentoring</h4>
               <p><strong>Volunteer Work</strong></p>
-              <p style="text-align: left; margin-top: 10px;">I am currently mentoring students in basic coding structure, including HTML, Python, and PHP. My focus is on helping them become acclimated to popular languages, frameworks, and design principles, providing a solid foundation for their development skills.</p>
+              <p style="text-align: left; margin-top: 10px;">I am currently mentoring students in basic coding structures, including HTML, Python, and PHP. My focus is on helping them become acclimated to popular languages, frameworks, and design principles, providing a solid foundation for their development skills.</p>
             </div>
           </div>
         </div>
@@ -407,74 +407,39 @@
   </section> -->
   <!--================End Testimonials Area =================-->
 
-  <!--================Footer Area =================-->
-  <footer id="contact" class="footer_area p_120">
-    <div class="container">
-      <div class="row footer_inner">
-        <div class="col-lg-5 col-sm-6">
-          <aside class="f_widget ab_widget">
-            <div class="f_title">
-              <h3>Want to work together?</h3>
+<!--================Footer Area =================-->
+<footer id="contact" class="footer_area p_120">
+  <div class="container">
+    <div class="row footer_inner">
+      <div class="col-lg-5 col-sm-6">
+        <aside class="f_widget ab_widget">
+          <div class="f_title">
+            <h3>Want to work together?</h3>
+          </div>
+          <p>I'm always on the lookout for talented developers and IT professionals to collaborate with on exciting projects. Feel free to reach out if you're interested in partnering!</p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </aside>
+      </div>
+      <div class="col-lg-5 col-sm-6">
+        <aside class="f_widget news_widget">
+          <div class="f_title">
+            <h3>Get in Touch</h3>
+          </div>
+          <p>Leave your email and I'll get in touch with you!</p>
+          <div id="contact">
+            <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
+            <div class="input-group d-flex flex-row">
+              <?php echo form_input(['name' => 'email', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
+              <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
             </div>
-            <p>I'm always on the lookout for talented developers and IT professionals to collaborate with on exciting projects. Feel free to reach out if you're interested in partnering!</p>
-            Copyright &copy;<script>
-              document.write(new Date().getFullYear());
-            </script> All rights reserved | StandingDev.com</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </aside>
-        </div>
-        <div class="col-lg-5 col-sm-6">
-          <aside class="f_widget news_widget">
-            <div class="f_title">
-              <h3>Get in Touch</h3>
-            </div>
-            <p>Leave your email annd I'll get in touch with you!</p>
-            <div id="contact">
-              <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
-              <div class="input-group d-flex flex-row">
-                <?php echo form_input(['name' => 'email', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
-                <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-              </div>
-              <div class="mt-10 info"></div>
-              <?php echo form_close(); ?>
-            </div>
-          </aside>
-          <aside class="f_widget news_widget">
-            <p>Do you want to send a more detailed message?</p>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-              Message Me
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content" style="background: linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Message</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
-                    <div class="form-group">
-                      <?php echo form_label('Email address', 'email'); ?>
-                      <?php echo form_input(['name' => 'long_email', 'id' => 'email', 'class' => 'form-control', 'required' => 'required', 'placeholder' => 'Enter email', 'style' => 'background: transparent; font-family: "Roboto", sans-serif; font-size: 14px; color: white;']); ?>
-                    </div>
-                    <div class="form-group">
-                      <?php echo form_label('Message', 'message'); ?>
-                      <?php echo form_textarea(['name' => 'message', 'id' => 'message', 'required' => 'required', 'rows' => '3', 'class' => 'form-control', 'placeholder' => 'Write a short message', 'style' => 'background: transparent; font-family: "Roboto", sans-serif; font-size: 14px; color: white;']); ?>
-                    </div>
-
-                    <div class="modal-footer">
-                      <?php echo form_button(['type' => 'submit', 'class' => 'btn btn-primary', 'content' => 'Send']); ?>
-                      <?php echo form_close(); ?>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
+            <div class="mt-10 info"></div>
+            <?php echo form_close(); ?>
+          </div>
+        </aside>
+        <aside class="f_widget news_widget">
+          <p>Do you want to send a more detailed message?</p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msgMeModal">Message Me</button>
+          <?php require_once(__DIR__ . '/common/modal/messageMeModal.php'); ?>
         </aside>
       </div>
       <div class="col-lg-2">
@@ -491,9 +456,18 @@
         </aside>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12 text-center">
+      <br />
+        Copyright &copy;<script>
+          document.write(new Date().getFullYear());
+        </script> All rights reserved | StandingDev.com
+      </div>
     </div>
-  </footer>
-  <!--================End Footer Area =================-->
+  </div>
+</footer>
+<!--================End Footer Area =================-->
+
 
 
 

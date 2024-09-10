@@ -84,9 +84,9 @@
 	cursor: pointer;
 	@include transition;
 	&:hover{
-		background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+		background-image: -moz-linear-gradient( -225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+		background-image: -webkit-linear-gradient( -225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+		background-image: -ms-linear-gradient( -225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 		color: #fff;
 		border: none;
 	}
