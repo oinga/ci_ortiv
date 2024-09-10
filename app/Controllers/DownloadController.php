@@ -6,12 +6,17 @@ class DownloadController extends BaseController
 {
     public function downloadCV()
     {
-        $file_path = WRITEPATH . 'uploads/Ortiv_Inga-Software_Engineer.pdf';
+        // Construct the file path relative to the public directory
+        $file_path = ROOTPATH . 'public/uploads/Ortiv_Inga-Software_Engineer.pdf';
 
         if (file_exists($file_path)) {
-            return $this->response->download($file_path, null);
+            // Prepare the response to force download
+            return $this->response->setHeader('Content-Type', 'application/pdf')
+                ->setHeader('Content-Disposition', 'attachment; filename="Ortiv_Inga-Software_Engineer.pdf"')
+                ->setHeader('Content-Length', filesize($file_path))
+                ->setBody(file_get_contents($file_path));
         } else {
-            return 'File does not exist.';
+            throw new \CodeIgniter\Exceptions\PageNotFoundException("File not found: " . $file_path);
         }
     }
 }
