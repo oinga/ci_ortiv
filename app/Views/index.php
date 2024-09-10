@@ -272,7 +272,7 @@
             <!-- <i class="flaticon-sketch"></i> -->
             <img class="dbm" src="<?php echo base_url('assets/img/cloud-computing.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="cloud-computing">
             <h4>Cloud Computing</h4>
-            <p>Cloud computing expertise, including deployment, scaling, and management of cloud resources, ensuring optimal performance and cost-efficiency. I excel at providing per-specification consultation and designing scalable solutions that leverage cloud technologies to meet business needs."</p>
+            <p>Cloud computing expertise, including deployment, scaling, and management of cloud resources, ensuring optimal performance and cost-efficiency. I excel at providing per-specification consultation and designing scalable solutions that leverage cloud technologies to meet business needs.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
