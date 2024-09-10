@@ -1,13 +1,14 @@
 /* Footer Area css
 ============================================================================================ */
-.footer_area{
+.footer_area {
 	background: #000;
 }
 
 
-.f_title{
+.f_title {
 	margin-bottom: 35px;
-	h3{
+
+	h3 {
 		color: #fff;
 		font-size: 18px;
 		font-weight: bold;
@@ -15,41 +16,65 @@
 		margin-bottom: 0px;
 	}
 }
-.ab_widget{
-	p{
+
+.ab_widget {
+	p {
 		font-size: 14px;
 		line-height: 24px;
 		font-family: $rob;
 		color: $pfont;
 		margin-bottom: 30px;
-		a{
+
+		a {
 			color: $baseColor;
 		}
-		& + p{
+
+		&+p {
 			margin-bottom: 0px;
 		}
 	}
 }
-.news_widget{
+
+.news_widget {
 	padding-right: 15px;
-	p, .modal-content{
+
+	p,
+	.modal-content {
 		font-size: 14px;
 		line-height: 24px;
 		font-family: $rob;
 		color: $pfont;
 		margin-bottom: 15px;
 	}
-	.modal-content{
+
+	.btn-primary {
+		margin-bottom: 5%;
+		background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+		background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+		background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+
+		&:hover {
+			background-image: -moz-linear-gradient(-225deg, darken(#5D9FFF, 10%) 0%, darken(#B8DCFF, 10%) 48%, darken(#6BBBFF, 10%) 100%);
+			background-image: -webkit-linear-gradient(-225deg, darken(#5D9FFF, 10%) 0%, darken(#B8DCFF, 10%) 48%, darken(#6BBBFF, 10%) 100%);
+			background-image: -ms-linear-gradient(-225deg, darken(#5D9FFF, 10%) 0%, darken(#B8DCFF, 10%) 48%, darken(#6BBBFF, 10%) 100%);
+		}
+	}
+
+	.modal-content {
 		background: linear-gradient(to right, #434343 0%, black 100%);
 	}
-	textarea{
+
+	textarea {
 		background: inherit !important;
 	}
-	label{
+
+	label {
 		color: white;
 	}
-	.input-group, .modal-content{
-		input{
+
+	.input-group,
+	.modal-content {
+		input {
 			height: 40px;
 			background: transparent;
 			border-radius: 0px;
@@ -62,14 +87,16 @@
 			color: #cccccc;
 			outline: none;
 			box-shadow: none;
-			@include placeholder{
+
+			@include placeholder {
 				font-size: 14px;
 				font-family: $rob;
 				font-weight: normal;
 				color: #cccccc;
 			}
 		}
-		textarea{
+
+		textarea {
 			height: 100px;
 			// background: transparent;
 			border-radius: 0px;
@@ -82,7 +109,8 @@
 			color: #cccccc;
 			outline: none;
 			box-shadow: none;
-			@include placeholder{
+
+			@include placeholder {
 				font-size: 14px;
 				font-family: $rob;
 				font-weight: normal;
@@ -90,11 +118,12 @@
 			}
 		}
 
-		.sub-btn, .modal-content{
+		.sub-btn,
+		.btn .modal-content {
 			border-radius: 0px;
-			background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
-			background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
-			background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+			background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+			background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+			background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 			outline: none !important;
 			box-shadow: none !important;
 			padding: 0px;
@@ -105,39 +134,46 @@
 		}
 	}
 }
-.social_widget{
-	p{
+
+.social_widget {
+	p {
 		font-size: 14px;
 		line-height: 24px;
 		font-family: $rob;
 		color: $pfont;
 		margin-bottom: 10px;
 	}
-	.list{
-		li{
+
+	.list {
+		li {
 			margin-right: 17px;
 			display: inline-block;
-			a{
+
+			a {
 				color: #cccccc;
 				font-size: 14px;
 				@include transition;
 			}
-			&:last-child{
+
+			&:last-child {
 				margin-right: 0px;
 			}
-			&:hover{
-				a{
+
+			&:hover {
+				a {
 					color: $baseColor;
 				}
 			}
 		}
 	}
 }
-.copy_right_text{
+
+.copy_right_text {
 	text-align: center;
 	margin-top: 60px;
-	p{
-		a{
+
+	p {
+		a {
 			color: $baseColor;
 		}
 	}

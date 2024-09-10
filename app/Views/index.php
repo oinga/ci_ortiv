@@ -438,7 +438,7 @@
         </aside>
         <aside class="f_widget news_widget">
           <p>Do you want to send a more detailed message?</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msgMeModal" style="margin-bottom: 5%;">Message Me</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msgMeModal">Message Me</button>
           <?php require_once(__DIR__ . '/common/modal/messageMeModal.php'); ?>
         </aside>
       </div>

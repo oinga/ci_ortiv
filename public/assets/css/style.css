@@ -355,9 +355,9 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   margin-bottom: 200px;
 }
 .home_banner_area .box_1620 {
@@ -387,6 +387,17 @@ button:focus {
 .home_banner_area .banner_inner .banner_content .media .media-body {
   vertical-align: middle;
   align-self: center;
+}
+.home_banner_area .banner_inner .btn-primary {
+  margin-bottom: 5%;
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.home_banner_area .banner_inner .btn-primary:hover {
+  background-image: -moz-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
+  background-image: -webkit-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
+  background-image: -ms-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
 }
 
 .blog_banner {
@@ -446,9 +457,9 @@ button:focus {
   position: relative;
   z-index: 1;
   min-height: 350px;
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   margin-bottom: 120px;
 }
 .banner_area .box_1620 {
@@ -633,9 +644,9 @@ button:focus {
   height: 1px;
 }
 .categories_post:hover .categories_details {
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   opacity: 0.851;
 }
 
@@ -906,9 +917,9 @@ button:focus {
   font-size: 12px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   color: #fff;
 }
 .blog_right_sidebar .br {
@@ -2960,9 +2971,9 @@ h6 {
   transition: all 300ms linear 0s;
 }
 .white_bg_btn:hover {
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   color: #fff;
   border: none;
 }
@@ -3074,9 +3085,9 @@ h6 {
   border-radius: 5px;
   vertical-align: middle;
   align-self: center;
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 }
 
 /* End Welcome Area css
@@ -3084,9 +3095,9 @@ h6 {
 /* My Tabs Area css
 ============================================================================================ */
 .mytabs_area {
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 }
 
 .tabs_inner .nav.nav-tabs {
@@ -3339,9 +3350,9 @@ h6 {
   font-size: 16px;
 }
 .personal_text .personal_social li:hover a {
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 }
 
 /* End Personal Profile Area css
@@ -3400,9 +3411,9 @@ h6 {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   position: absolute;
   opacity: 0;
   transition: all 300ms ease;
@@ -3545,12 +3556,24 @@ h6 {
 .news_widget {
   padding-right: 15px;
 }
-.news_widget p, .news_widget .modal-content {
+.news_widget p,
+.news_widget .modal-content {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   color: #777777;
   margin-bottom: 15px;
+}
+.news_widget .btn-primary {
+  margin-bottom: 5%;
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+}
+.news_widget .btn-primary:hover {
+  background-image: -moz-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
+  background-image: -webkit-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
+  background-image: -ms-linear-gradient(-225deg, #2a81ff 0%, #85c3ff 48%, #38a4ff 100%);
 }
 .news_widget .modal-content {
   background: linear-gradient(to right, #434343 0%, black 100%);
@@ -3561,7 +3584,8 @@ h6 {
 .news_widget label {
   color: white;
 }
-.news_widget .input-group input, .news_widget .modal-content input {
+.news_widget .input-group input,
+.news_widget .modal-content input {
   height: 40px;
   background: transparent;
   border-radius: 0px;
@@ -3575,31 +3599,36 @@ h6 {
   outline: none;
   box-shadow: none;
 }
-.news_widget .input-group input.placeholder, .news_widget .modal-content input.placeholder {
+.news_widget .input-group input.placeholder,
+.news_widget .modal-content input.placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group input:-moz-placeholder, .news_widget .modal-content input:-moz-placeholder {
+.news_widget .input-group input:-moz-placeholder,
+.news_widget .modal-content input:-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group input::-moz-placeholder, .news_widget .modal-content input::-moz-placeholder {
+.news_widget .input-group input::-moz-placeholder,
+.news_widget .modal-content input::-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group input::-webkit-input-placeholder, .news_widget .modal-content input::-webkit-input-placeholder {
+.news_widget .input-group input::-webkit-input-placeholder,
+.news_widget .modal-content input::-webkit-input-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group textarea, .news_widget .modal-content textarea {
+.news_widget .input-group textarea,
+.news_widget .modal-content textarea {
   height: 100px;
   border-radius: 0px;
   width: 80%;
@@ -3612,35 +3641,42 @@ h6 {
   outline: none;
   box-shadow: none;
 }
-.news_widget .input-group textarea.placeholder, .news_widget .modal-content textarea.placeholder {
+.news_widget .input-group textarea.placeholder,
+.news_widget .modal-content textarea.placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group textarea:-moz-placeholder, .news_widget .modal-content textarea:-moz-placeholder {
+.news_widget .input-group textarea:-moz-placeholder,
+.news_widget .modal-content textarea:-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group textarea::-moz-placeholder, .news_widget .modal-content textarea::-moz-placeholder {
+.news_widget .input-group textarea::-moz-placeholder,
+.news_widget .modal-content textarea::-moz-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group textarea::-webkit-input-placeholder, .news_widget .modal-content textarea::-webkit-input-placeholder {
+.news_widget .input-group textarea::-webkit-input-placeholder,
+.news_widget .modal-content textarea::-webkit-input-placeholder {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #cccccc;
 }
-.news_widget .input-group .sub-btn, .news_widget .input-group .modal-content, .news_widget .modal-content .sub-btn, .news_widget .modal-content .modal-content {
+.news_widget .input-group .sub-btn,
+.news_widget .input-group .btn .modal-content,
+.news_widget .modal-content .sub-btn,
+.news_widget .modal-content .btn .modal-content {
   border-radius: 0px;
-  background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
-  background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+  background-image: -moz-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -webkit-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+  background-image: -ms-linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
   outline: none !important;
   box-shadow: none !important;
   padding: 0px;
