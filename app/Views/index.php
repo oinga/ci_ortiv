@@ -4,9 +4,8 @@
 <!--================ Head =================-->
 <?php require_once(__DIR__ . '/common/head.php'); ?>
 
-<body>
-  <!--================ Header =================-->
-  <?php require_once(__DIR__ . '/common/header.php'); ?>
+<!--================ Header =================-->
+<?php require_once(__DIR__ . '/common/header.php'); ?>
 
 
   <!--================Home Banner Area =================-->
@@ -349,148 +348,9 @@
             </div>
           </div>
         </div>
-
-
-
-        <!-- <div class="more_btn">
-        <a class="main_btn" href="#">Load More Items</a>
-      </div> -->
       </div>
   </section>
-  <!--================End Home Gallery Area =================-->
 
-  <!--================Testimonials Area =================-->
-  <!-- <section class="testimonials_area p_120">
-    <div class="container">
-      <div class="main_title">
-        <h2>Testimonials</h2>
-        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p>
-      </div>
-      <div class="testi_inner">
-        <div class="testi_slider owl-carousel">
-          <div class="item">
-            <div class="testi_item">
-              <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-              <h4>Fanny Spencer</h4>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star-half-o"></i></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testi_item">
-              <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-              <h4>Fanny Spencer</h4>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star-half-o"></i></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="testi_item">
-              <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel across her face</p>
-              <h4>Fanny Spencer</h4>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star"></i></a>
-              <a href="#"><i class="fa fa-star-half-o"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--================End Testimonials Area =================-->
-
-<!--================Footer Area =================-->
-<footer id="contact" class="footer_area p_120">
-  <div class="container">
-    <div class="row footer_inner">
-      <div class="col-lg-5 col-sm-6">
-        <aside class="f_widget ab_widget">
-          <div class="f_title">
-            <h3>Want to work together?</h3>
-          </div>
-          <p>I'm always on the lookout for talented developers and IT professionals to collaborate with on exciting projects. Feel free to reach out if you're interested in partnering!</p>
-          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        </aside>
-      </div>
-      <div class="col-lg-5 col-sm-6">
-        <aside class="f_widget news_widget">
-          <div class="f_title">
-            <h3>Get in Touch</h3>
-          </div>
-          <p>Leave your email and I'll get in touch with you!</p>
-          <div id="contact">
-            <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
-            <div class="input-group d-flex flex-row">
-              <?php echo form_input(['name' => 'email', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
-              <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-            </div>
-            <div class="mt-10 info"></div>
-            <?php echo form_close(); ?>
-          </div>
-        </aside>
-        <aside class="f_widget news_widget">
-          <p>Do you want to send a more detailed message?</p>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msgMeModal">Message Me</button>
-          <?php require_once(__DIR__ . '/common/modal/messageMeModal.php'); ?>
-        </aside>
-      </div>
-      <div class="col-lg-2">
-        <aside class="f_widget social_widget">
-          <div class="f_title">
-            <h3>Follow Me</h3>
-          </div>
-          <p>My Social</p>
-          <ul class="list">
-            <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/ortiv-inga" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
-          </ul>
-        </aside>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 text-center">
-      <br />
-        Copyright &copy;<script>
-          document.write(new Date().getFullYear());
-        </script> All rights reserved | StandingDev.com
-      </div>
-    </div>
-  </div>
-</footer>
-<!--================End Footer Area =================-->
-
-
-
-
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/popper.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/stellar.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/lightbox/simpleLightbox.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/nice-select/js/jquery.nice-select.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/isotope/imagesloaded.pkgd.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/isotope/isotope.pkgd.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/owl-carousel/owl.carousel.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/popup/jquery.magnific-popup.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/jquery.ajaxchimp.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/counter-up/jquery.waypoints.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/vendors/counter-up/jquery.counterup.min.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/mail-script.js'); ?>"></script>
-  <script src="<?php echo base_url('assets/js/theme.js'); ?>"></script>
-</body>
+  <?php require_once(__DIR__ . '/common/footer.php'); ?>
 
 </html>
