@@ -3,10 +3,8 @@
 .footer_area{
 	background: #000;
 }
-.footer_inner{
-	
-}
-.f_widget{}
+
+
 .f_title{
 	margin-bottom: 35px;
 	h3{
@@ -34,14 +32,23 @@
 }
 .news_widget{
 	padding-right: 15px;
-	p{
+	p, .modal-content{
 		font-size: 14px;
 		line-height: 24px;
 		font-family: $rob;
 		color: $pfont;
 		margin-bottom: 15px;
 	}
-	.input-group{
+	.modal-content{
+		background: linear-gradient(to right, #434343 0%, black 100%);
+	}
+	textarea{
+		background: inherit !important;
+	}
+	label{
+		color: white;
+	}
+	.input-group, .modal-content{
 		input{
 			height: 40px;
 			background: transparent;
@@ -62,7 +69,28 @@
 				color: #cccccc;
 			}
 		}
-		.sub-btn{
+		textarea{
+			height: 100px;
+			// background: transparent;
+			border-radius: 0px;
+			width: 80%;
+			border: none;
+			padding: 0px 15px;
+			border: 1px solid #1e233b;
+			font-size: 14px;
+			font-family: $rob;
+			color: #cccccc;
+			outline: none;
+			box-shadow: none;
+			@include placeholder{
+				font-size: 14px;
+				font-family: $rob;
+				font-weight: normal;
+				color: #cccccc;
+			}
+		}
+
+		.sub-btn, .modal-content{
 			border-radius: 0px;
 			background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
 			background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
