@@ -28,7 +28,7 @@
                 <h6>Hello everyone! I am</h6>
                 <h3>
                   Ortiv Inga
-                  <a href="<?= base_url('cv'); ?>" class="btn btn-primary" download style="margin-left: 10px;">Download CV</a>
+                  <a href="<?= base_url('uploads/'.$cv); ?>" target="_blank" class="btn btn-primary" style="margin-left: 10px;">View My CV</a>
                 </h3>
                 <h4>Software Engineer</h4>
                 <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>

@@ -15,6 +15,7 @@ class Home extends BaseController
 
     public function index(): string
     {
+        $data = ['cv' => 'Ortiv_Inga-Software_Engineer.pdf'];
         $postData = $this->request->getPost();
         if (!empty($postData)) {
             $email = !empty($postData['email']) ? $postData['email'] : $postData['long_email'];
@@ -30,7 +31,7 @@ class Home extends BaseController
                 $this->session->setFlashdata('message', 'Oops, It looks like you forgot your email address. Please try again.');
             }
         }
-        return view('index');
+        return view('index', $data);
     }
 
     private function isValidEmail(string $email): bool
