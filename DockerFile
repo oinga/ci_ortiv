@@ -15,7 +15,16 @@ COPY ./public /var/www/html/public
 COPY ./app /var/www/html/app
 COPY ./writable /var/www/html/writable
 COPY ./tests /var/www/html/tests
-COPY ./env /var/www/html/.env
+
+# Define build-time arguments for environment variables
+ARG EMAIL
+ARG PASSWORD
+ARG SMTP_HOST
+
+# Optional: Create a .env file within the container using the build arguments
+RUN echo "EMAIL=$EMAIL" >> /var/www/html/.env && \
+    echo "PASSWORD=$PASSWORD" >> /var/www/html/.env && \
+    echo "SMTP_HOST=$SMTP_HOST" >> /var/www/html/.env
 
 # Set file permissions for writable directory (CodeIgniter's requirement)
 RUN chown -R www-data:www-data /var/www/html/writable
