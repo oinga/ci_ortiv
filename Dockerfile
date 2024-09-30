@@ -30,7 +30,9 @@ RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html
 
 # Add the ServerName directive to avoid Apache warnings
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+# RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+#NorthFlank
+RUN echo "ServerName p01--standing-dev--8f2wjcnyjnpz.code.run" >> /etc/apache2/apache2.conf
 
 # Add the DirectoryIndex configuration to ensure index.php is served
 RUN echo "<IfModule dir_module>\n    DirectoryIndex index.php index.html\n</IfModule>" >> /etc/apache2/apache2.conf
