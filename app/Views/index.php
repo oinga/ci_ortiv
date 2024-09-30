@@ -18,6 +18,11 @@
               <img src="<?php echo base_url('assets/img/personal.jpg'); ?>" alt="">
             </div>
             <div class="media-body">
+            <div class="personal_text">
+                <?php if (session()->has('forwarding')) : ?>
+                  <div class="alert alert-info">
+                    <?php echo session('message'); ?>
+                  </div>              
               <div class="personal_text">
                 <?php if (session()->has('message')) : ?>
                   <div class="alert alert-info">
