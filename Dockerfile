@@ -1,16 +1,14 @@
 # Use an official PHP image with Apache
 FROM php:8.2-apache
 
-# Install required system packages
+# Install required system packages and Composer
 RUN apt-get update && apt-get install -y \
     libicu-dev \
     zip \
     unzip \
-    git
-    curl
-
- # Install Composer(Needed for NorthFlank)
- RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+    git \
+    curl \
+    && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install necessary PHP extensions
 RUN docker-php-ext-install intl pdo pdo_mysql
@@ -23,7 +21,6 @@ WORKDIR /var/www/html
 
 # Copy the CodeIgniter application files to the container
 COPY . .
-
 
 # Install Composer dependencies
 RUN composer install --no-dev --optimize-autoloader
