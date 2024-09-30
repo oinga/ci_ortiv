@@ -7,6 +7,10 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     git
+    curl
+
+ # Install Composer(Needed for NorthFlank)
+ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install necessary PHP extensions
 RUN docker-php-ext-install intl pdo pdo_mysql
@@ -19,6 +23,10 @@ WORKDIR /var/www/html
 
 # Copy the CodeIgniter application files to the container
 COPY . .
+
+
+# Install Composer dependencies
+RUN composer install --no-dev --optimize-autoloader
 
 # Set ownership and permissions for the Apache user
 RUN chown -R www-data:www-data /var/www/html \
