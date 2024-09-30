@@ -21,7 +21,7 @@
             <div class="personal_text">
                 <?php if (session()->has('forwarding')) : ?>
                   <div class="alert alert-info">
-                    <?php echo session('message'); ?>
+                    <?php echo session('forwarding'); ?>
                   </div>  
                   <?php endif; ?>            
               <div class="personal_text">
