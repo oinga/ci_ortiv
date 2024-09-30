@@ -15,6 +15,10 @@ class Home extends BaseController
 
     public function index(): string
     {
+        $forwarding = 1;
+        if ($forwarding == 1) {
+            $this->session->setFlashdata('forwarding', 'Please excuse the mess, I am currently updating my website. In the meantime, you can download my CV by clicking the button below. If you would like to get in touch, please fill out the form at the bottom of the page.');
+        }
         $data = ['cv' => 'Ortiv_Inga-Software_Engineer.pdf'];
         $postData = $this->request->getPost();
         if (!empty($postData)) {
