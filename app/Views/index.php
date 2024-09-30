@@ -22,7 +22,8 @@
                 <?php if (session()->has('forwarding')) : ?>
                   <div class="alert alert-info">
                     <?php echo session('message'); ?>
-                  </div>              
+                  </div>  
+                  <?php endif; ?>            
               <div class="personal_text">
                 <?php if (session()->has('message')) : ?>
                   <div class="alert alert-info">
