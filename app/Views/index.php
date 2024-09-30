@@ -39,7 +39,7 @@
                 <p>Welcome to my page! I am a Software engineer who enjoys building applications for the Information Technology sector. I enjoy combining my passion for learning, working on a team, and exercising my software development skills, to better serve clients and continue to build personalized applications.</p>
                 <ul class="list basic_info">
                   <li><a href="#"><i class="lnr lnr-calendar-full"></i> November, 7th 1983</a></li>
-                  <li><a href="mailto:ortiv@programmer.net"><i class="lnr lnr-envelope"></i> ortiv@programmer.net</a>
+                  <!-- <li><a href="mailto:ortiv@programmer.net"><i class="lnr lnr-envelope"></i> ortiv@programmer.net</a> -->
                   <li><a href="#"><i class="lnr lnr-home"></i>Atlanta, Georgia</a></li>
                 </ul>
                 <ul class="list personal_social">
