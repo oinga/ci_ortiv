@@ -6,22 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="<?php echo base_url('/assets/img/favicon.ico'); ?>" type="image/png">
-    <title>Standing Dev</title>
+    <title>Ortiv.com</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Standing Dev is your go-to source for web development services, coding tutorials, and the latest tech news.">
+    <meta name="description" content="Ortiv.com is a software development porfolio for Ortiv Inga.">
     
     <!-- Open Graph Meta Tags (for social media previews, also used by Google) -->
-    <meta property="og:title" content="Standing Dev - Portfolio of Ortiv Inga">
-    <meta property="og:description" content="Portfolio of Ortiv Inga, The Standing Dev - showcasing high-quality web development services and coding tutorials">
+    <meta property="og:title" content="Ortiv.com - Portfolio of Ortiv Inga">
+    <meta property="og:description" content="Portfolio of Ortiv Inga - Showcasing high-quality web development services and coding tutorials">
     <meta property="og:image" content="<?php echo base_url('/assets/img/favicon.ico'); ?>">
     <meta property="og:url" content="<?php echo current_url(); ?>">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags (for Twitter previews) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Standing Dev - Portfolio of Ortiv Inga">
-    <meta name="twitter:description" content="Portfolio of Ortiv Inga, The Standing Dev - showcasing high-quality web development services and coding tutorials">
+    <meta name="twitter:title" content="Ortiv.com - Portfolio of Ortiv Inga">
+    <meta name="twitter:description" content="Portfolio of Ortiv Inga, The Ortiv.com - showcasing high-quality web development services and coding tutorials">
     <meta name="twitter:image" content="<?php echo base_url('/assets/img/favicon.ico'); ?>">
 
     <!-- Bootstrap CSS and other assets -->

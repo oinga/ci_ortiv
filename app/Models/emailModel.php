@@ -47,7 +47,7 @@ class emailModel extends Model
                 ],
             ];
             // Recipients
-            $mail->setFrom($_ENV['email'], 'Standing Dev'); // Sender's email and name
+            $mail->setFrom($_ENV['email'], 'Ortiv.com Bot'); // Sender's email and name
             $mail->addAddress($_ENV['email']); // Add a recipient
 
             // Content
