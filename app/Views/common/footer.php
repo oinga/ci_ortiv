@@ -28,7 +28,6 @@
                     </div>
                     <p>My Social</p>
                     <ul class="list">
-                        <li><a href="https://www.facebook.com/ortiv.inga" target="_blank"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/ortiv-inga" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/oinga" target="_blank"><i class="fa fa-github"></i></a></li>
                     </ul>
@@ -40,7 +39,7 @@
                 <br />
                 Copyright &copy;<script>
                     document.write(new Date().getFullYear());
-                </script> All rights reserved | StandingDev.com
+                </script> All rights reserved | Ortiv.com
             </div>
         </div>
     </div>
