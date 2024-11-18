@@ -28,9 +28,6 @@ class Home extends BaseController
         $recaptchaConfig->recaptchaSiteKey = $_ENV['recaptchaSiteKey'];
         $recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptchaSecretKey'];
         
-        // fix env names
-        dd($recaptchaConfig->recaptchaSiteKey, $recaptchaConfig->recaptchaSecretKey);
-
         $data = [
             'scriptTag' => getScriptTag(),
             'widgetTag' => getWidget(),
