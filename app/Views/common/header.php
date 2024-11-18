@@ -13,7 +13,7 @@
           <ul class="nav navbar-nav menu_nav ml-auto">
             <li class="nav-item active"><a class="nav-link" href="<?php echo base_url(); ?>">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#experience">Recent Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Recent Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#elements">What I'm up to</a></li>
             <li class="nav-item"><a class="nav-link" href="<?php echo base_url() . 'tutorials'; ?>">Tutorials</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
