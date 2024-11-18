@@ -62,8 +62,9 @@
     <div class="main_title">
       <h2> Most Recent Projects</h2>
     </div>
-
-    <div class="col-lg-4 col-md-6">
+      
+      <div class="feature_inner row"> 
+        <div class="col-lg-4 col-md-6">
           <div class="feature_item">
             <!-- <i class="flaticon-city"></i> -->
             <a href="https://github.com/oinga/my_tennis_club" target="_blank">
@@ -73,8 +74,7 @@
             <p>A Django-based web application designed to teach students how to use the Django framework. It provides hands-on experience with core Django concepts such as models, views, templates, and PostgreSQL integration.</p>
           </div>
         </div>     
-    
-      <div class="feature_inner row">          
+               
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
             <!-- <i class="flaticon-city"></i> -->
