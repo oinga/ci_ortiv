@@ -17,10 +17,10 @@ class Tutorials extends BaseController
     {
         helper('recaptcha'); // Load the reCAPTCHA helper
        
-        $recaptchaConfig = config('Recaptcha');
+        // $recaptchaConfig = config('Recaptcha');
 
-        $recaptchaConfig->recaptchaSiteKey = $_ENV['recaptchaSiteKey'];
-        $recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptchaSecretKey'];
+        // $recaptchaConfig->recaptchaSiteKey = $_ENV['recaptchaSiteKey'];
+        // $recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptchaSecretKey'];
         
         $data = [
             'scriptTag' => getScriptTag(),  // Load the reCAPTCHA script
