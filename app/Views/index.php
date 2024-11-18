@@ -223,7 +223,7 @@
 <!--================End What I'm Up To Area =================-->
 
 <!--================About Me Area =================-->
-<section id="about" class="welcome_area p_120">
+<section id="about" class="feature_area p_120">
   <div class="container">
     <div class="row welcome_inner">
       <div class="col-lg-6">
