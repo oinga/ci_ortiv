@@ -16,7 +16,12 @@ class Tutorials extends BaseController
     public function index(): string
     {
         helper('recaptcha'); // Load the reCAPTCHA helper
+       
+        // $recaptchaConfig = config('Recaptcha');
 
+        // $recaptchaConfig->recaptchaSiteKey = $_ENV['recaptchaSiteKey'];
+        // $recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptchaSecretKey'];
+        
         $data = [
             'scriptTag' => getScriptTag(),  // Load the reCAPTCHA script
             'widgetTag' => getWidget(),     // Load the reCAPTCHA widget
