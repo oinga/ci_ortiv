@@ -10,7 +10,7 @@
   <div class="container box_1620">
     <div class="row align-items-center">
       <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
-        <img src="<?php echo base_url('assets/img/standing_dev_mock3.jpg'); ?>" alt="Under Construction" class="img-fluid" style="max-height: 35vh;">
+        <img src="<?php echo base_url('assets/img/ortiv_mock3.jpg'); ?>" alt="Under Construction" class="img-fluid" style="max-height: 35vh;">
       </div>
       <div class="col-lg-6">
         <div class="personal_text">
