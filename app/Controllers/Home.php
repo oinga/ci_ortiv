@@ -24,7 +24,7 @@ class Home extends BaseController
         helper('recaptcha');
 
         $recaptchaConfig = config('Recaptcha');
-        
+        dd($_ENV);
         $recaptchaConfig->recaptchaSiteKey = $_ENV['recaptcha.recaptchaSiteKey'];
         $recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptcha.recaptchaSecretKey'];
         
