@@ -70,5 +70,7 @@ abstract class BaseController extends Controller
 
         // Load Recaptcha configuration
         $this->recaptchaConfig = config('Recaptcha');
+        $this->recaptchaConfig->recaptchaSiteKey = $_ENV['recaptchaSiteKey'];
+        $this->recaptchaConfig->recaptchaSecretKey =  $_ENV['recaptchaSecretKey'];
     }
 }
