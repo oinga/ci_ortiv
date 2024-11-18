@@ -22,6 +22,10 @@ class Home extends BaseController
     public function index(): string
     {   
         helper('recaptcha');
+
+        $recaptchaConfig = config('Recaptcha');
+        dd($recaptchaConfig->recaptchaSiteKey, $recaptchaConfig->recaptchaSecretKey);
+
         $data = [
             'scriptTag' => getScriptTag(),
             'widgetTag' => getWidget(),
