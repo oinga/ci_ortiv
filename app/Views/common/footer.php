@@ -13,22 +13,10 @@
             </div>
             <div class="col-lg-5 col-sm-6">
                 <aside class="f_widget news_widget">
-                    <div class="f_title">
+                <div class="f_title">
                         <h3>Get in Touch</h3>
                     </div>
-                    <p>Leave your email and I'll get in touch with you!</p>
-                    <div id="contact">
-                        <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
-                        <div class="input-group d-flex flex-row">
-                            <?php echo form_input(['name' => 'email', 'placeholder' => 'Enter email address', 'onfocus' => "this.placeholder = ''", 'onblur' => "this.placeholder = 'Email Address '", 'required' => '', 'type' => 'email']); ?>
-                            <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                        </div>
-                        <div class="mt-10 info"></div>
-                        <?php echo form_close(); ?>
-                    </div>
-                </aside>
-                <aside class="f_widget news_widget">
-                    <p>Do you want to send a more detailed message?</p>
+                    <p>Leave your email and a message, and I'll get in touch with you soon!</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#msgMeModal">Message Me</button>
                     <?php require_once(__DIR__ . '/modal/messageMeModal.php'); ?>
                 </aside>

@@ -10,6 +10,8 @@
                   </div>
                   <div class="modal-body">
                     <?php echo form_open(base_url(), ['class' => 'subscribe_form relative']); ?>
+                    <!-- Render reCAPTCHA widget -->
+                    <?= $widgetTag ?>
                     <div class="form-group">
                       <?php echo form_label('Email:', 'email'); ?>
                       <?php echo form_input(['name' => 'long_email', 'id' => 'email', 'class' => 'form-control', 'required' => 'required', 'placeholder' => 'Enter email', 'style' => 'background: transparent; font-family: "Roboto", sans-serif; font-size: 14px; color: white;']); ?>

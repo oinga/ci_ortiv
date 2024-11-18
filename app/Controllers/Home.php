@@ -3,27 +3,45 @@
 namespace App\Controllers;
 
 use App\Models\emailModel;
+use Config\Recaptcha as RecaptchaConfig;
+use PHPDevsr\Recaptcha\Recaptcha;
 
 class Home extends BaseController
 {
     private $emailModel;
+    protected RecaptchaConfig $config;
+    protected Recaptcha $recaptcha;
 
     public function __construct()
     {
         $this->emailModel = new emailModel();
+        $this->config = new RecaptchaConfig();
+        $this->recaptcha = new Recaptcha($this->config);
     }
 
     public function index(): string
-    {
-        $data = ['cv' => 'Ortiv_Inga-Software_Engineer.pdf'];
+    {   
+        helper('recaptcha');
+        $data = [
+            'scriptTag' => getScriptTag(),
+            'widgetTag' => getWidget(),
+            'cv' => 'Ortiv_Inga-Software_Engineer.pdf'
+        ];
+
         $postData = $this->request->getPost();
         if (!empty($postData)) {
             $email = !empty($postData['email']) ? $postData['email'] : $postData['long_email'];
             if (!empty($email)) {
                 if ($this->isValidEmail($email)) {
-                    $msg = 'Your email has been successfully submitted.';
-                    $this->sendEmail($postData);
-                    $this->session->setFlashdata('message', $msg);
+                    $captcha = $this->request->getPost('g-recaptcha-response');
+                    $response = verifyResponse($captcha);
+                    if (isset($response['success']) and $response['success'] === true) {
+                        $msg = 'Your email has been successfully submitted.';
+                        $this->sendEmail($postData);
+                        $this->session->setFlashdata('message', $msg);
+                    } else {
+                        $this->session->setFlashdata('message', 'Oops! It looks like you forgot to check the reCAPTCHA box. Please try again.');
+                    }                   
                 } else {
                     $this->session->setFlashdata('message', 'Oops! It looks like that email address isn\'t formatted correctly. Please try again.');
                 }
