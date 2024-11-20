@@ -60,7 +60,7 @@
 <section id="projects" class="mytabs_area p_120">
   <div class="container">
     <div class="main_title">
-      <h2> Most Recent Projects</h2>
+      <h2>Recent Projects</h2>
     </div>
       
       <div class="feature_inner row"> 
@@ -231,7 +231,7 @@
           <h4>About Me</h4>
           <div class="container">
             <p class="mb-4">
-              Though I did not pursure my bachelor’s degree in Computer Science, my journey took an unexpected turn when I discovered my true passion for coding. It all began with a freelance project for a law firm in Connecticut, where I was tasked with creating their website. This experience ignited a new direction in my career, leading me to become a professional software engineer.
+              Though I did not pursue my bachelor’s degree in Computer Science, my journey took an unexpected turn when I discovered my true passion for coding. It all began with a freelance project for a law firm in Connecticut, where I was tasked with creating their website. This experience ignited a new direction in my career, leading me to become a professional software engineer.
             </p>
 
             <p class="mb-4">
