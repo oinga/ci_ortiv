@@ -62,8 +62,20 @@
     <div class="main_title">
       <h2>Recent Projects</h2>
     </div>
+
+    <div class="feature_inner row"> 
+        <div class="col-lg-4 col-md-6">
+          <div class="feature_item">
+            <!-- <i class="flaticon-city"></i> -->
+            <a href="https://oinga.github.io/ECOMSILVER/" target="_blank">
+            <img class="backend-coding" src="<?php echo base_url('assets/img/browser.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="back-endcoding"></a>
+            </a>
+            <h4>ECOMSILVER Educational Project</h4>
+            <p>An ongoing web application project designed to teach students how to apply the Software Development Life Cycle (SDLC) in creating scalable and robust web applications.</p>
+          </div>
+        </div>      
       
-      <div class="feature_inner row"> 
+
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
             <!-- <i class="flaticon-city"></i> -->
