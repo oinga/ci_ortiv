@@ -67,7 +67,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="feature_item">
             <!-- <i class="flaticon-city"></i> -->
-            <a href="https://oinga.github.io/ECOMSILVER/" target="_blank">
+            <a href="https://github.com/oinga/ECOMSILVER" target="_blank">
             <img class="backend-coding" src="<?php echo base_url('assets/img/browser.png'); ?>" style="width: 30%; margin-bottom: 35px;" alt="back-endcoding"></a>
             </a>
             <h4>ECOMSILVER Educational Project</h4>
