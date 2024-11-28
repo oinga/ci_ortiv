@@ -15,7 +15,7 @@
       <div class="banner_content">
         <div class="media">
           <div class="d-flex">
-            <img src="<?php echo base_url('assets/img/personal.jpg'); ?>" alt="">
+            <img src="<?php echo base_url('assets/img/284n5478gv63b-04.jpg'); ?>" alt="">
           </div>
           <div class="media-body">
             <div class="personal_text">
