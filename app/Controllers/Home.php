@@ -21,7 +21,7 @@ class Home extends BaseController
         $data = [
             'scriptTag' => getScriptTag(), // Render the Recaptcha script
             'widgetTag' => getWidget(),   // Render the Recaptcha widget
-            'cv' => 'Ortiv_Inga-Software_Engineer.pdf'
+            'cv' => 'Ortiv_Inga_Software_Engineer.pdf'
         ];
 
         $postData = $this->request->getPost();
